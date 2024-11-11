@@ -25,7 +25,7 @@ SECRET_KEY="(yxm=cgin3g74sp_$=g8tj02+51#g)d)d#@4n92i!@usi_e_dp"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 import os
-DEBUG = os.environ.get('DEBUG') == 'True'
+DEBUG = 'True'
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.pythonanywhere.com']
 
